@@ -150,11 +150,8 @@
             <li><a href="#" id="Contact"  data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<font color='#E74425'>Teacher :</font><br>
                      林清池 INS509<br>
                      E-mail : lincc@mail.ntou.edu.tw<br><br>
-                     <font color='#E74425'>TAs(資工) :</font><br>
-                     劉閔正 INS601 6646<br>
-                     任威竹 INS601 6646<br>
-                     <font color='#E74425'>TA(電機) :</font><br>
-                     吳志軒 INS603 6609<br>
+                     <font color='#E74425'>TAs :</font><br>
+                     吳香儀、林家琮
                      ">聯絡資訊</a></li>
             <!--<li><a href="#" id="HWFormat" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="請用<font color='red'> 雙面空白A4紙書寫</font><br>
                      標明<font color='red'> HW# 姓名 學號</font><br>
@@ -169,6 +166,7 @@
       </div>
     </nav>
 
+    <!-- //設定左側目錄欄-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
@@ -178,16 +176,12 @@
             <li style="text-align:center;"; id="sidebar-li-02"><a href="#">上課講義</a></li>
             <li style="text-align:center;"; id="sidebar-li-03"><a href="#">作業下載</a></li>
             <li style="text-align:center;"; id="sidebar-li-04"><a href="#">考試題目</a></li>
-			<li style="text-align:center;"; id="sidebar-li-05"><a href="#">發問紀錄(電機系)</a></li>
-			<li style="text-align:center;"; id="sidebar-li-06"><a href="#">發問紀錄(資工系)</a></li>
-			<li style="text-align:center;"; id="sidebar-li-07"><a href="#">補強紀錄(電機系)</a></li>
-			<li style="text-align:center;"; id="sidebar-li-08"><a href="#">補強紀錄(資工系)</a></li>
-      <li style="text-align:center;"; id="sidebar-li-09"><a href="#">成績查詢(電機系)</a></li>
-      <li style="text-align:center;"; id="sidebar-li-10"><a href="#">成績查詢(資工系)</a></li>
+			<li style="text-align:center;"; id="sidebar-li-05"><a href="#">發問紀錄</a></li>
+			<li style="text-align:center;"; id="sidebar-li-07"><a href="#">補強紀錄</a></li>
+      <li style="text-align:center;"; id="sidebar-li-09"><a href="#">成績查詢</a></li>
             <li style="text-align:center;"; id="sidebar-li-12"><a href="#">程式練習</a></li>
             <!--<li style="text-align:center;"; id="sidebar-li-13"><a href="#">程式練習B</a></li>-->
-			<li style="text-align:center;"; id="sidebar-li-14"><a href="#">期末總成績(電機系)</a></li>
-			<li style="text-align:center;"; id="sidebar-li-15"><a href="#">期末總成績(資工系)</a></li>
+			<li style="text-align:center;"; id="sidebar-li-14"><a href="#">期末總成績</a></li>
  
             <li style="text-align:center;" id="sidebar-li-11"><a href="#">歷屆考題</a></li>
           </ul>
@@ -202,15 +196,18 @@
           </div>
           <div class="table-responsive"> -->
           
-          <!--..課程公告的顯示Table..-->
-            <table class="table table-striped" id="table-responsive-01">
-              <thead>
-                <tr>
-                  <th colspan="2" style="text-align:center;font-size:20px;width:25%">時間</th>
-                  <th style="text-align:center;font-size:20px;width:70%">事由</th>
-                </tr>
-              </thead>
-              <tbody>
+    <!--..課程公告的顯示Table..-->
+      <table class="table table-striped" id="table-responsive-01">
+          <thead>
+             <tr>
+               <th colspan="2" style="text-align:center;font-size:20px;width:25%">時間</th>
+               <th style="text-align:center;font-size:20px;width:70%">事由</th>
+             </tr>
+          </thead>
+        
+          <tbody>
+
+                <!-- 舊的公告們 
                   <tr>    
                       <td style="text-align:left;vertical-align:middle"><span class="label label-danger">Important</span></td>
                       <td class="bulletin-date">2018/1/11</td>
@@ -248,243 +245,244 @@
                   <td style="text-align:center;vertical-align:middle;">請有修演算法週三早上的同學(有訂講義者)於下週9/27周三上課時帶110元向助教領取講義</td>
                 </tr>
 
-			          <tr>    
-				          <td style="text-align:left;vertical-align:middle"><span class="label label-danger"></span></td>
-				          <td class="bulletin-date">2017/9/15</td>
-				          <td style="text-align:center;vertical-align:middle;">WEB TEST</td>
-                </tr>
+              -->
 
-              </tbody>
-            </table>
-           
-           <!--上課講義頁面-->
-            <table class="table table-striped" id="table-responsive-02" style="display:none;">
-              <thead>
-                <tr>
+			      <tr>    
+				          <td style="text-align:left;vertical-align:middle"><span class="label label-danger"></span></td>
+				          <td class="bulletin-date">2018/2/28</td>
+				          <td style="text-align:center;vertical-align:middle;">WEB TEST</td>
+            </tr>
+
+          </tbody>
+      </table>
+
+      <!--上課講義頁面-->
+      <table class="table table-striped" id="table-responsive-02" style="display:none;">
+          <thead>
+              <tr>
                   <th class="title-font">章節名稱</th>
                   <th class="title-font">檔案下載</th>
                   <th class="title-font">列印格式</th>
                   <th class="title-font">筆記版本</th>
                   <th class="title-font">上傳日期</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
+              </tr>
+          </thead>
+
+          <tbody>
+              <tr>
                   <td style="vertical-align:middle;">Syllabus</td>
                   <td style="vertical-align:middle;"><a href="https://ppt.cc/f9hx6x" target="_blank">Syllabus</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/LxuRD2" target="_blank">Syllabus-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fkwXBx" target="_blank">Syllabus-4</a></td>
                   <td style="vertical-align:middle;"></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch0  Stable Matching</td>
-                  <td style="vertical-align:middle;"><a href="http://goo.gl/PBSpqU" target="_blank">Algorithm-Ch0</a></td>
-                 <td style="vertical-align:middle;"><a href="https://goo.gl/pTLAf5" target="_blank">Algorithm-Ch0-4</a></td>
-                  <td style="vertical-align:middle;"></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch1  Preliminaries</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/RTCHQk" target="_blank">Algorithm-Ch1</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/UrXtHs" target="_blank">Algorithm-Ch1-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/MA6fyU" target="_blank">Algorithm-Ch1-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch2  Getting Started</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/LbkUGH" target="_blank">Algorithm-Ch2</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/uQXKG6" target="_blank">Algorithm-Ch2-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/wsXLsA" target="_blank">Algorithm-Ch2-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch3  Growth of Functions</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/fmpD9p" target="_blank">Algorithm-Ch3</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/38qamw" target="_blank">Algorithm-Ch3-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/SqQ7Yv" target="_blank">Algorithm-Ch3-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch4  Recurrences</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/bzZPhN" target="_blank">Algorithm-Ch4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/AUHiLX" target="_blank">Algorithm-Ch4-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/NKuosb" target="_blank">Algorithm-Ch4-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch6 Heapsort</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/rQPQJL" target="_blank">Algorithm-Ch6</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/2gBAQx" target="_blank">Algorithm-Ch6-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/r9Mzv9" target="_blank">Algorithm-Ch6-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch7 Quicksort</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/kLFCdD" target="_blank">Algorithm-Ch7</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/gpEkb6" target="_blank">Algorithm-Ch7-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/56d1a8" target="_blank">Algorithm-Ch7-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align:middle;">Ch8 Sorting in Linear Time</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/dsTsnS" target="_blank">Algorithm-Ch8</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/X2qvQJ" target="_blank">Algorithm-Ch8-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/R1anVm" target="_blank">Algorithm-Ch8-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-				<tr>
-                  <td style="vertical-align:middle;">Ch9 Medians and Order Statistics</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/Dfbrqh" target="_blank">Algorithm-Ch9</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/eK2FwG" target="_blank">Algorithm-Ch9-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/PEf8Ei" target="_blank">Algorithm-Ch9-annotated</a></td>
-                 <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-				<tr>
-                  <td style="vertical-align:middle;">Ch11 Hash Tables</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/awdhAJ" target="_blank">Algorithm-Ch11</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/jPv7gK" target="_blank">Algorithm-Ch11-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/cFzzxw" target="_blank">Algorithm-Ch11-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-				<tr>
-                  <td style="vertical-align:middle;">Ch12 Binary Search Trees</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/CkL4zR" target="_blank">Algorithm-Ch12</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/ddxghA" target="_blank">Algorithm-Ch12-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/LXT7bv" target="_blank">Algorithm-Ch12-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-				<tr>
-                  <td style="vertical-align:middle;">Ch13 Red Black Trees</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/AS6hsq" target="_blank">Algorithm-Ch13</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/idbP9P" target="_blank">Algorithm-Ch13-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/cKto4U" target="_blank">Algorithm-Ch13-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>
-				<tr>
-                  <td style="vertical-align:middle;">Ch15 Dynamic Programming</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/mTJjQe" target="_blank">Algorithm-Ch15</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/uKhPAq" target="_blank">Algorithm-Ch15-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/hShGTq" target="_blank">Algorithm-Ch15-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/15</td>
-                </tr>								
-				<tr>                  
-				  <td style="vertical-align:middle;">Ch16 Greedy Algorithms</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/8FJHw7" target="_blank">Algorithm-Ch16</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/7Hbaic" target="_blank">Algorithm-Ch16-4</a></td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/u4cguu" target="_blank">Algorithm-Ch16-annotated</a></td>
-                  <td style="vertical-align:middle;">2017/09/08</td>                
-				</tr>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
 
-				<!------動畫------>
-				<tr>
+              <tr>
+                  <td style="vertical-align:middle;">Ch17  Amortized Analysis</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/f23Whx" target="_blank">ga-Ch17</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fVTDwx" target="_blank"></a>ga-Ch17-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fg9KFx" target="_blank">ga-Ch17-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">Ch18  B-Trees</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fcJDEx" target="_blank">ga-Ch18</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/f1NyMx" target="_blank">ga-Ch18-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fG16Fx" target="_blank">ga-Ch18-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">Ch19  Fibonacci Heaps</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fBCbmx" target="_blank">ga-Ch19</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fLIy6x" target="_blank">ga-Ch19-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fjdssx" target="_blank">ga-Ch19-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">Ch19*  Binomial Heaps</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fHV7Ix" target="_blank">ga-Ch19*</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/f7YU7x" target="_blank">ga-Ch19*-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fwaLTx" target="_blank">ga-Ch19*-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">Ch21  DS for Disjoint Sets</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fjEJ1x" target="_blank">ga-Ch21</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/f53sPx" target="_blank">ga-Ch21-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/f8t85x" target="_blank">ga-Ch21-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">Ch22 Elementary Graph Algorithms</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fSywyx" target="_blank">ga-Ch22</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fjEh2x" target="_blank">ga-Ch22-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fmy4Sx" target="_blank">ga-Ch22-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">Ch23 Minimum Spanning Trees</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/f6Icmx" target="_blank">ga-Ch23</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fSHhex" target="_blank">ga-Ch23-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/frSGhx" target="_blank">ga-Ch23-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">Ch24 Single-Source Shortest Paths</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/flu9vx" target="_blank">ga-Ch24</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fllevx" target="_blank">ga-Ch24-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fnU9yx" target="_blank">ga-Ch24-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+				      <tr>
+                  <td style="vertical-align:middle;">Ch25 All-Pairs Shortest Paths</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fcx1Ux" target="_blank">ga-Ch25</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fBr7Nx" target="_blank">ga-Ch25-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fn8QIx" target="_blank">ga-Ch25-annotated</a></td>
+                 <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+				      <tr>
+                  <td style="vertical-align:middle;">Ch33 Computational Geometry</td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fJaxpx" target="_blank">ga-Ch33</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fqfT3x" target="_blank">ga-Ch33-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fc3OCx" target="_blank">ga-Ch33-annotated</a></td>
+                  <td style="vertical-align:middle;">2018/02/28</td>
+              </tr>
+
+
+			       <!------動畫------>
+              <tr>
                   <th class="title-font">動畫</th>
-                </tr>
+              </tr>
 				
-				<tr>
-				  <td style="vertical-align:middle;"><a href="https://goo.gl/HOaEZa">QuickSort動畫</a></td>
-                  <td style="vertical-align:middle;"><a href="#" class="pdf-title"></a></td>
-                  <td style="vertical-align:middle;"><a href="#" class="pdf-title"></a></td>
-                  <td style="vertical-align:middle;"><a href="#" class="pdf-title"></a></td>
-                  <td style="vertical-align:middle;">2016/11/08</td> 
-				</tr>
+				      <tr>
+				        <td style="vertical-align:middle;"><a href="https://goo.gl/HOaEZa">QuickSort動畫</a></td>
+                     <td style="vertical-align:middle;"><a href="#" class="pdf-title"></a></td>
+                     <td style="vertical-align:middle;"><a href="#" class="pdf-title"></a></td>
+                     <td style="vertical-align:middle;"><a href="#" class="pdf-title"></a></td>
+                     <td style="vertical-align:middle;">2016/11/08</td> 
+				      </tr>
 				
 				
 				
-              </tbody>
-            </table>
+          </tbody>
+      </table>
             
 
-            <!--作業下載頁面開始-->
-            <table class="table table-striped" id="table-responsive-03" style="display:none;">
-              <thead>
+      <!--作業下載頁面開始-->
+      <table class="table table-striped" id="table-responsive-03" style="display:none;">
+          <thead>
                 <tr>
                   <th class="title-font">週次</th>
                   <th class="title-font">作業</th>
                   <th class="title-font">解答</th>
                   <th class="title-font">上傳日期</th>
                 </tr>
-              </thead>
+          </thead>
               
-              <!--作業下載Table Tbody編輯部份-->
-              <tbody>				
-                <!--作業下載單一項目範例-->
-                <tr>
+      <!--作業下載Table Tbody編輯部份-->
+          <tbody>				
+            <!--作業下載單一項目範例-->
+              <tr>
                   <td style="vertical-align:middle;">3</td>
                   <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework2</a></td>
                   <td style="vertical-align:middle;"><a href="https://goo.gl/XXV3aZ">Ans2</a></td>
                   <td style="vertical-align:middle;">2015/09/10</td>
-                </tr>
-                               
+              </tr>
 
-                
-               			<tr>
-					<td style="vertical-align:middle;">5</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework3</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/vwNOmW">Ans3</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">5</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework4</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/tO1Y5x">Ans4</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">8</td> 
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework6</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/zK05Y1">Ans6</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">8</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework7</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/kxLdRC">Ans7</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-                		<tr>
-					<td style="vertical-align:middle;">12</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework8</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/1Ipkp7">Ans8</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">12</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework9</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/bTwUcZ">Ans9</a><a href="https://goo.gl/kj4ymT">Ans9-5</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">15</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework11</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/WfAinL">Ans11</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">15</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework12</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/0kfXu3">Ans12</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">16</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework13</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/gU7GkL" >Ans13</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
-				<tr>
-					<td style="vertical-align:middle;">17</td>
-					<td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework15</a></td>
-					<td style="vertical-align:middle;"><a href="https://goo.gl/sJwSAJ" >Ans15</a></td>
-					<td style="vertical-align:middle;">2015/09/10</td>
-				</tr>
+              <tr>
+                  <td style="vertical-align:middle;">5</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework3</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/vwNOmW">Ans3</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+              
+			      	<tr>
+                  <td style="vertical-align:middle;">5</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/tO1Y5x">Ans4</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+              
+			      	<tr>
+                  <td style="vertical-align:middle;">8</td> 
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework6</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/zK05Y1">Ans6</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">8</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework7</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/kxLdRC">Ans7</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">12</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework8</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/1Ipkp7">Ans8</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">12</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework9</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/bTwUcZ">Ans9</a><a href="https://goo.gl/kj4ymT">Ans9-5</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+
+				      <tr>
+                  <td style="vertical-align:middle;">15</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework11</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/WfAinL">Ans11</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">15</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework12</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/0kfXu3">Ans12</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">16</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework13</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/gU7GkL" >Ans13</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
+
+              <tr>
+                  <td style="vertical-align:middle;">17</td>
+                  <td style="vertical-align:middle;"><a href="#" class="pdf-HW">Homework15</a></td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/sJwSAJ" >Ans15</a></td>
+                  <td style="vertical-align:middle;">2015/09/10</td>
+              </tr>
                 
 
-              </tbody>
-            </table>
+          </tbody>
+      </table>
             
-            <!--考試題目頁面開始-->
+
+      <!--考試題目頁面開始-->
 			<table class="table table-striped" id="table-responsive-04" style="display:none;">
-			<thead>                <tr>                  <!-- <th class="title-font">週次</th> -->                  <th class="title-font">名稱</th>                  <th class="title-font">解答</th>                  <th class="title-font">上傳日期</th>                </tr>              </thead>              
+		    	<thead>               
+             <tr>                 
+                <!-- <th class="title-font">週次</th> -->
+                <th class="title-font">名稱</th>
+                <th class="title-font">解答</th>
+                <th class="title-font">上傳日期</th>
+             </tr>              
+          </thead>              
 			
 			<tbody>
           <tr>
@@ -492,68 +490,82 @@
               <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49OXBlM0p3YUNTUnM">Quiz1_solution</a></td>
               <td style="vertical-align:middle;">2017/09/25</td>			
           </tr>
-				<tr>
-						<td style="vertical-align:middle;">Quiz_2(資工)</td>
-						<td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49dFJZSnNtc1RGTVk">Quiz2_solution</a></td>
-						<td style="vertical-align:middle;">2017/10/02</td>			
-				</tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_2(資工)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49dFJZSnNtc1RGTVk">Quiz2_solution</a></td>
+              <td style="vertical-align:middle;">2017/10/02</td>			
+          </tr>
 		
-				<tr>
-						<td style="vertical-align:middle;">Quiz_3(資工)</td>
-						<td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
-						<td style="vertical-align:middle;">2017/10/09</td>			
-				</tr>
-				<tr>
-          <td style="vertical-align:middle;">Quiz_4(電機)</td>
-          <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
-          <td style="vertical-align:middle;">2017/10/23</td>			
-      </tr>
-				<tr>
-						<td style="vertical-align:middle;">Quiz_5(資工)</td>
-						<td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49TGdVQlNjVFRsT00">Quiz5_solution</a></td>
-						<td style="vertical-align:middle;">2017/10/21</td>			
-				</tr>
-        <tr>
-          <td style="vertical-align:middle;">Quiz_5(電機)</td>
-          <td style="vertical-align:middle;"><a href=" https://drive.google.com/open?id=0BxJp5QcLMI49YTA3RkJLRTRPSFE">Quiz5_solution</a></td>
-          <td style="vertical-align:middle;">2017/10/26</td>			
-      </tr>
-      <tr>
-        <td style="vertical-align:middle;">Quiz_7(資工)</td>
-        <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49VEJaVTdDcVRXazA">Quiz7_solution</a></td>
-        <td style="vertical-align:middle;">2017/11/06</td>			
-    </tr>
-    <tr>
-      <td style="vertical-align:middle;">Quiz_7(電機)</td>
-      <td style="vertical-align:middle;"><a href="https://goo.gl/Kf2Seb">Quiz7_solution</a></td>
-      <td style="vertical-align:middle;">2017/11/30</td>			
-  </tr>
-  <tr>
-    <td style="vertical-align:middle;">Quiz_8(電機)</td>
-    <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Zkl4JBpeeVwWEM-386CnrhCBBtyBJkNS/view?usp=sharing">Quiz8_solution</a></td>
-    <td style="vertical-align:middle;">2018/1/5</td>			
-</tr>
-<tr>
-  <td style="vertical-align:middle;">Quiz_9(電機)</td>
-  <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1HwldLzY5jonC8_RAd_Veb8DrqCGleBn-/view?usp=sharing">Quiz9_solution</a></td>
-  <td style="vertical-align:middle;">2018/1/5</td>			
-</tr>
-<tr>
-  <td style="vertical-align:middle;">Quiz_9-1(電機)</td>
-  <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1kAchQazJmpTmvTVZ85gWiAQq90ePYF_b/view?usp=sharing">Quiz9-1_solution</a></td>
-  <td style="vertical-align:middle;">2018/1/5</td>			
-</tr>
-<tr>
-  <td style="vertical-align:middle;">Quiz_10(電機)</td>
-  <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Esm_GH2fsz6KQzqm0eBIyPPOa3FHTFQc/view?usp=sharing">Quiz10_solution</a></td>
-  <td style="vertical-align:middle;">2018/1/5</td>			
-</tr>
-<tr>
-  <td style="vertical-align:middle;">Quiz_11(電機)</td>
-  <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=1BhjBXXwqR4GTUoJFeF-wIR_AjbfTZWoa">Quiz11_solution</a></td>
-  <td style="vertical-align:middle;">2018/1/5</td>			
-</tr>
-			<!--	<tr>
+          <tr>
+              <td style="vertical-align:middle;">Quiz_3(資工)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
+              <td style="vertical-align:middle;">2017/10/09</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_4(電機)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
+              <td style="vertical-align:middle;">2017/10/23</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_5(資工)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49TGdVQlNjVFRsT00">Quiz5_solution</a></td>
+              <td style="vertical-align:middle;">2017/10/21</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_5(電機)</td>
+              <td style="vertical-align:middle;"><a href=" https://drive.google.com/open?id=0BxJp5QcLMI49YTA3RkJLRTRPSFE">Quiz5_solution</a></td>
+              <td style="vertical-align:middle;">2017/10/26</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_7(資工)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49VEJaVTdDcVRXazA">Quiz7_solution</a></td>
+              <td style="vertical-align:middle;">2017/11/06</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_7(電機)</td>
+              <td style="vertical-align:middle;"><a href="https://goo.gl/Kf2Seb">Quiz7_solution</a></td>
+              <td style="vertical-align:middle;">2017/11/30</td>			
+          </tr>
+
+          <tr>
+            <td style="vertical-align:middle;">Quiz_8(電機)</td>
+            <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Zkl4JBpeeVwWEM-386CnrhCBBtyBJkNS/view?usp=sharing">Quiz8_solution</a></td>
+            <td style="vertical-align:middle;">2018/1/5</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_9(電機)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1HwldLzY5jonC8_RAd_Veb8DrqCGleBn-/view?usp=sharing">Quiz9_solution</a></td>
+              <td style="vertical-align:middle;">2018/1/5</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_9-1(電機)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1kAchQazJmpTmvTVZ85gWiAQq90ePYF_b/view?usp=sharing">Quiz9-1_solution</a></td>
+              <td style="vertical-align:middle;">2018/1/5</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_10(電機)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Esm_GH2fsz6KQzqm0eBIyPPOa3FHTFQc/view?usp=sharing">Quiz10_solution</a></td>
+              <td style="vertical-align:middle;">2018/1/5</td>			
+          </tr>
+
+          <tr>
+              <td style="vertical-align:middle;">Quiz_11(電機)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=1BhjBXXwqR4GTUoJFeF-wIR_AjbfTZWoa">Quiz11_solution</a></td>
+              <td style="vertical-align:middle;">2018/1/5</td>			
+          </tr>
+
+
+
+			<!--解答	<tr>
 						<td style="vertical-align:middle;">Quiz5_FindMaxSubarray_MasterMethod</td>
 						<td style="vertical-align:middle;"><a href="https://goo.gl/7p0sMK">Quiz5_solution</a></td>
 						<td style="vertical-align:middle;">2016/10/27</td>			
