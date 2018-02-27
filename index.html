@@ -1,14 +1,14 @@
 ﻿  <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon"1032 href="./assets/ico/favicon.png">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon"1032 href="./assets/ico/favicon.png">
 	
-    <title>1062</title>
+    <title>1062 圖論演算法教學網頁</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
@@ -73,6 +73,7 @@
         // 顯示作業PDF
        		$('.pdf-HW').on('click', function(){				  var pdfName = $(this).text();          window.open("https://dl.dropboxusercontent.com/u/57606902/%E6%BC%94%E7%AE%97%E6%B3%95/exercise/2012_algorithm_homework_"+pdfName.slice(8,10)+".pdf", "_blank", 'width=850,height=750');        });		$('.pdf-HW-sol').on('click', function(){				  var pdfName = $(this).text();          window.open("https://ba2c0e6c48b15d2c4a8b91bc72d796c454e7d356.googledrive.com/host/0B7tG2XFaB3uTcUwwWTlTYklkNlU/Homework%20"+pdfName.slice(3,6)+".pdf", "_blank", 'width=850,height=750');        });
 		
+
 		// 顯示考試解答
 		$('.pdf-quiz_1').on('click', function(){
           window.open("https://drive.google.com/file/d/0B1WR0k8a4q5oX1BSaGtuU0szU2M/view?usp=sharing", "_blank", 'width=850,height=750');
@@ -142,7 +143,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="">1061 演算法教學網頁</a>
+          <a class="navbar-brand" href="">1062 圖論演算法教學網頁</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -153,10 +154,18 @@
                      <font color='#E74425'>TAs :</font><br>
                      吳香儀、林家琮
                      ">聯絡資訊</a></li>
+
             <!--<li><a href="#" id="HWFormat" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="請用<font color='red'> 雙面空白A4紙書寫</font><br>
                      標明<font color='red'> HW# 姓名 學號</font><br>
                      未依格式者，不予計分">作業格式</a></li>-->
-            <li><a href="#" id="Others" style="margin-right:100px" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-content="FB社團：<br><a href='https://www.facebook.com/groups/268978283595171/?fref=ts'>106海大演算法討論區</a><br><br>"
+            <li><a href="#" 
+                    id="Others" 
+                    style="margin-right:100px" 
+                    data-html="true" 
+                    data-container="body" 
+                    data-toggle="popover" 
+                    data-placement="bottom" 
+                    data-content="FB社團：<br><a href='https://goo.gl/NLHbVY'>圖論演算法 106</a><br><br>"
               >其他資訊</a></li>
           </ul>
           <!-- <form class="navbar-form navbar-right">
@@ -166,26 +175,35 @@
       </div>
     </nav>
 
+
     <!-- //設定左側目錄欄-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <!-- <li class="active" id="sidebar-li-1"><a href="#">課程公告<span class="sr-only">(current)</span></a></li> -->
-            <li style="text-align:center; "; class="active" id="sidebar-li-01"><a href="#">課程公告</a></li>
+            <li style="text-align:center;"; class="active" id="sidebar-li-01"><a href="#">課程公告</a></li>
             <li style="text-align:center;"; id="sidebar-li-02"><a href="#">上課講義</a></li>
-            <li style="text-align:center;"; id="sidebar-li-03"><a href="#">作業下載</a></li>
-            <li style="text-align:center;"; id="sidebar-li-04"><a href="#">考試題目</a></li>
-			<li style="text-align:center;"; id="sidebar-li-05"><a href="#">發問紀錄</a></li>
-			<li style="text-align:center;"; id="sidebar-li-07"><a href="#">補強紀錄</a></li>
-      <li style="text-align:center;"; id="sidebar-li-09"><a href="#">成績查詢</a></li>
-            <li style="text-align:center;"; id="sidebar-li-12"><a href="#">程式練習</a></li>
+            <li style="text-align:center;"; id="sidebar-li-03"><a href="#">作業下載(待更新)</a></li>
+
+            <li style="text-align:center;"; id="sidebar-li-09"><a href="#"></a></li>  
+            <li style="text-align:center;"; id="sidebar-li-04"><a href="#">小考題目</a></li>
+            <li style="text-align:center;"; id="sidebar-li-11"><a href="#">歷屆考題(待更新)</a></li>
+
+            <li style="text-align:center;"; id="sidebar-li-09"><a href="#"></a></li>  
+            <li style="text-align:center;"; id="sidebar-li-05"><a href="#">發問紀錄</a></li>
+            <li style="text-align:center;"; id="sidebar-li-07"><a href="#">補強紀錄</a></li>
+            <li style="text-align:center;"; id="sidebar-li-12"><a href="#">程式練習紀錄</a></li>
+
+            <li style="text-align:center;"; id="sidebar-li-09"><a href="#"></a></li>            
+            <li style="text-align:center;"; id="sidebar-li-09"><a href="#">小考成績</a></li>
             <!--<li style="text-align:center;"; id="sidebar-li-13"><a href="#">程式練習B</a></li>-->
-			<li style="text-align:center;"; id="sidebar-li-14"><a href="#">期末總成績</a></li>
- 
-            <li style="text-align:center;" id="sidebar-li-11"><a href="#">歷屆考題</a></li>
+	      		<li style="text-align:center;"; id="sidebar-li-14"><a href="#">期末總成績</a></li>
+   
           </ul>
         </div>
+
+
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h2 class="sub-header">課程公告</h2>
           <!-- <div class="progress">
@@ -195,7 +213,8 @@
             距離期中考還有...30天
           </div>
           <div class="table-responsive"> -->
-          
+     
+            
     <!--..課程公告的顯示Table..-->
       <table class="table table-striped" id="table-responsive-01">
           <thead>
@@ -256,6 +275,7 @@
           </tbody>
       </table>
 
+
       <!--上課講義頁面-->
       <table class="table table-striped" id="table-responsive-02" style="display:none;">
           <thead>
@@ -280,7 +300,7 @@
               <tr>
                   <td style="vertical-align:middle;">Ch17  Amortized Analysis</td>
                   <td style="vertical-align:middle;"><a href="https://ppt.cc/f23Whx" target="_blank">ga-Ch17</a></td>
-                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fVTDwx" target="_blank"></a>ga-Ch17-4</a></td>
+                  <td style="vertical-align:middle;"><a href="https://ppt.cc/fVTDwx" target="_blank">ga-Ch17-4</a></td>
                   <td style="vertical-align:middle;"><a href="https://ppt.cc/fg9KFx" target="_blank">ga-Ch17-annotated</a></td>
                   <td style="vertical-align:middle;">2018/02/28</td>
               </tr>
@@ -388,7 +408,7 @@
                 </tr>
           </thead>
               
-      <!--作業下載Table Tbody編輯部份-->
+          <!--作業下載Table Tbody編輯部份-->
           <tbody>				
             <!--作業下載單一項目範例-->
               <tr>
@@ -473,7 +493,7 @@
       </table>
             
 
-      <!--考試題目頁面開始-->
+      <!--小考題目頁面開始-->
 			<table class="table table-striped" id="table-responsive-04" style="display:none;">
 		    	<thead>               
              <tr>                 
@@ -483,86 +503,87 @@
                 <th class="title-font">上傳日期</th>
              </tr>              
           </thead>              
-			
-			<tbody>
-          <tr>
-              <td style="vertical-align:middle;">Quiz_1(電機)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49OXBlM0p3YUNTUnM">Quiz1_solution</a></td>
-              <td style="vertical-align:middle;">2017/09/25</td>			
-          </tr>
+      
+      <!-- 小考題  
+        <tbody>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_1(電機)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49OXBlM0p3YUNTUnM">Quiz1_solution</a></td>
+                <td style="vertical-align:middle;">2017/09/25</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_2(資工)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49dFJZSnNtc1RGTVk">Quiz2_solution</a></td>
-              <td style="vertical-align:middle;">2017/10/02</td>			
-          </tr>
-		
-          <tr>
-              <td style="vertical-align:middle;">Quiz_3(資工)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
-              <td style="vertical-align:middle;">2017/10/09</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_2(資工)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49dFJZSnNtc1RGTVk">Quiz2_solution</a></td>
+                <td style="vertical-align:middle;">2017/10/02</td>			
+            </tr>
+      
+            <tr>
+                <td style="vertical-align:middle;">Quiz_3(資工)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
+                <td style="vertical-align:middle;">2017/10/09</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_4(電機)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
-              <td style="vertical-align:middle;">2017/10/23</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_4(電機)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49MkVETng2eWZBWGc">Quiz3_solution</a></td>
+                <td style="vertical-align:middle;">2017/10/23</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_5(資工)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49TGdVQlNjVFRsT00">Quiz5_solution</a></td>
-              <td style="vertical-align:middle;">2017/10/21</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_5(資工)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49TGdVQlNjVFRsT00">Quiz5_solution</a></td>
+                <td style="vertical-align:middle;">2017/10/21</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_5(電機)</td>
-              <td style="vertical-align:middle;"><a href=" https://drive.google.com/open?id=0BxJp5QcLMI49YTA3RkJLRTRPSFE">Quiz5_solution</a></td>
-              <td style="vertical-align:middle;">2017/10/26</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_5(電機)</td>
+                <td style="vertical-align:middle;"><a href=" https://drive.google.com/open?id=0BxJp5QcLMI49YTA3RkJLRTRPSFE">Quiz5_solution</a></td>
+                <td style="vertical-align:middle;">2017/10/26</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_7(資工)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49VEJaVTdDcVRXazA">Quiz7_solution</a></td>
-              <td style="vertical-align:middle;">2017/11/06</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_7(資工)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=0BxJp5QcLMI49VEJaVTdDcVRXazA">Quiz7_solution</a></td>
+                <td style="vertical-align:middle;">2017/11/06</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_7(電機)</td>
-              <td style="vertical-align:middle;"><a href="https://goo.gl/Kf2Seb">Quiz7_solution</a></td>
-              <td style="vertical-align:middle;">2017/11/30</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_7(電機)</td>
+                <td style="vertical-align:middle;"><a href="https://goo.gl/Kf2Seb">Quiz7_solution</a></td>
+                <td style="vertical-align:middle;">2017/11/30</td>			
+            </tr>
 
-          <tr>
-            <td style="vertical-align:middle;">Quiz_8(電機)</td>
-            <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Zkl4JBpeeVwWEM-386CnrhCBBtyBJkNS/view?usp=sharing">Quiz8_solution</a></td>
-            <td style="vertical-align:middle;">2018/1/5</td>			
-          </tr>
-
-          <tr>
-              <td style="vertical-align:middle;">Quiz_9(電機)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1HwldLzY5jonC8_RAd_Veb8DrqCGleBn-/view?usp=sharing">Quiz9_solution</a></td>
+            <tr>
+              <td style="vertical-align:middle;">Quiz_8(電機)</td>
+              <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Zkl4JBpeeVwWEM-386CnrhCBBtyBJkNS/view?usp=sharing">Quiz8_solution</a></td>
               <td style="vertical-align:middle;">2018/1/5</td>			
-          </tr>
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_9-1(電機)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1kAchQazJmpTmvTVZ85gWiAQq90ePYF_b/view?usp=sharing">Quiz9-1_solution</a></td>
-              <td style="vertical-align:middle;">2018/1/5</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_9(電機)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1HwldLzY5jonC8_RAd_Veb8DrqCGleBn-/view?usp=sharing">Quiz9_solution</a></td>
+                <td style="vertical-align:middle;">2018/1/5</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_10(電機)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Esm_GH2fsz6KQzqm0eBIyPPOa3FHTFQc/view?usp=sharing">Quiz10_solution</a></td>
-              <td style="vertical-align:middle;">2018/1/5</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_9-1(電機)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1kAchQazJmpTmvTVZ85gWiAQq90ePYF_b/view?usp=sharing">Quiz9-1_solution</a></td>
+                <td style="vertical-align:middle;">2018/1/5</td>			
+            </tr>
 
-          <tr>
-              <td style="vertical-align:middle;">Quiz_11(電機)</td>
-              <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=1BhjBXXwqR4GTUoJFeF-wIR_AjbfTZWoa">Quiz11_solution</a></td>
-              <td style="vertical-align:middle;">2018/1/5</td>			
-          </tr>
+            <tr>
+                <td style="vertical-align:middle;">Quiz_10(電機)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/file/d/1Esm_GH2fsz6KQzqm0eBIyPPOa3FHTFQc/view?usp=sharing">Quiz10_solution</a></td>
+                <td style="vertical-align:middle;">2018/1/5</td>			
+            </tr>
 
+            <tr>
+                <td style="vertical-align:middle;">Quiz_11(電機)</td>
+                <td style="vertical-align:middle;"><a href="https://drive.google.com/open?id=1BhjBXXwqR4GTUoJFeF-wIR_AjbfTZWoa">Quiz11_solution</a></td>
+                <td style="vertical-align:middle;">2018/1/5</td>			
+            </tr>
+      -->
 
 
 			<!--解答	<tr>
@@ -637,135 +658,151 @@
 
 				
 			</tbody>
-			<!--註解開始，Table橫條內容
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第一次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_1">Quiz_1</a></td>                  <td style="vertical-align:middle;">2015/09/22</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第二次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_2">Quiz_2</a></td>                  <td style="vertical-align:middle;">2015/09/29</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第三次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_3">Quiz_3</a></td>                  <td style="vertical-align:middle;">2015/10/16</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第四次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_4">Quiz_4</a></td>                  <td style="vertical-align:middle;">2015/10/23</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第五次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_5">Quiz_5</a></td>                  <td style="vertical-align:middle;">2015/11/10</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第六次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_6">Quiz_6</a></td>                  <td style="vertical-align:middle;">2015/11/11</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第七次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_7">Quiz_7</a></td>                  <td style="vertical-align:middle;">2015/12/02</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第八次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_8">Quiz_8</a></td>                  <td style="vertical-align:middle;">2015/12/11</td>				              
-			</tbody>
-			<tbody>			  			                    
-				<td style="vertical-align:middle;">第九次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_9">Quiz_9</a></td>                  <td style="vertical-align:middle;">2015/12/16</td>				              
-			</tbody>
-			
-			註解結束-->
-			</div> 
+          <!--註解開始，Table橫條內容
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第一次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_1">Quiz_1</a></td>                  <td style="vertical-align:middle;">2015/09/22</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第二次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_2">Quiz_2</a></td>                  <td style="vertical-align:middle;">2015/09/29</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第三次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_3">Quiz_3</a></td>                  <td style="vertical-align:middle;">2015/10/16</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第四次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_4">Quiz_4</a></td>                  <td style="vertical-align:middle;">2015/10/23</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第五次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_5">Quiz_5</a></td>                  <td style="vertical-align:middle;">2015/11/10</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第六次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_6">Quiz_6</a></td>                  <td style="vertical-align:middle;">2015/11/11</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第七次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_7">Quiz_7</a></td>                  <td style="vertical-align:middle;">2015/12/02</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第八次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_8">Quiz_8</a></td>                  <td style="vertical-align:middle;">2015/12/11</td>				              
+          </tbody>
+          <tbody>			  			                    
+            <td style="vertical-align:middle;">第九次小考</td>				                    <td style="vertical-align:middle;"><a href="#" class="pdf-quiz_9">Quiz_9</a></td>                  <td style="vertical-align:middle;">2015/12/16</td>				              
+          </tbody>
+          
+          註解結束-->
+		</div> 
 		
 		
 		<!--其餘頁面GoogleTable顯示部份設定-->
 			<div id="table-responsive-05" style="display:none;"><!--發問紀錄-->
-				<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTDBhlvd_Id2h-GUQWLZbhDNqSp6BSMvISB48h6kc8nAV5k5qsXaRprnxOJiBvKe9iFjW6Fbw53ha4r/pubhtml?widget=true&amp;headers=false"></iframe>
-			</div>
+        <iframe width="100%" height="800" src="google表單website"></iframe>
+      </div>
+      
 			<div id="table-responsive-06" style="display:none;">
-				<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQslld3Mx63WQXUkXmk4O5zg55kI5pqxhcWg95vUbmSmdhR25DQRup2gbe6HvDkiKFzN6rzksRVWhag/pubhtml?widget=true&amp;headers=false"></iframe>
-			</div>
+				<iframe width="100%" height="800" src="google表單website"></iframe>
+      </div>
+      
 			<div id="table-responsive-07" style="display:none;"><!--補強-->
-				<iframe width="100%" height="800"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmm9CVNxdmiZEuwvLoOnWdZ_S-u0ejnC4ecViQn30cp0kYyLemGJ6__caqgBTePB58r41qW2TB4PI/pubhtml?widget=true&amp;headers=false"></iframe>
-			</div>
+				<iframe width="100%" height="800"src="google表單website"></iframe>
+      </div>
+      
 			<div id="table-responsive-08" style="display:none;">
-				<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5C_Ul3EmC6LMLYdpoNWcvGUacIdNbAYEilmwXPnPyV3P2N6AZTCFwaNr7Vg3_b9S1VKTHd2ycFDOo/pubhtml?widget=true&amp;headers=false"></iframe>
-			</div>
+          <iframe width="100%" height="800" src="google表單website"></iframe>
+      </div>
+      
 			<div id="table-responsive-09" style="display:none;"><!--小考成績查詢-->
-				<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRoTHJZnFXByoUA0Y174HL-kKhdM9kKoz6S0eTZJOoGGTumXchPtK7d1tOmFxqFeaIgR75JuR-NGRs/pubhtml?widget=true&amp;headers=false"></iframe>
-			</div>
+				<iframe width="100%" height="800" src="google表單website"></iframe>
+      </div>
+      
 			<div id="table-responsive-10" style="display:none;">
-				<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_lD_CGV4KLJDVFOiGzJZanJGaUr1EIs7EE9ftzjGUJW6TxEYxUxLJkqdQ9WMzBb_jyqQ8uSXnwxdA/pubhtml?widget=true&amp;headers=false"></iframe>
-			</div>			
+          <iframe width="100%" height="800" src="google表單website"></iframe>
+      </div>	
+      		
 			<div id="table-responsive-12" style="display:none;"><!--程式練習狀況-->
-			<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/1n6ZsfqLDKJ6I20rC35CaGjuno9idj42sKperWHgrQm0/pubhtml?gid=1402978687&amp;single=true&amp;widget=true&amp;headers=false"></iframe>				
+				<iframe width="100%" height="800" src="google表單website"></iframe>
 			</div>
         
 			<!--<div id="table-responsive-13" style="display:none;">
-			<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/1n6ZsfqLDKJ6I20rC35CaGjuno9idj42sKperWHgrQm0/pubhtml?gid=1415003753&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+			  <iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/1n6ZsfqLDKJ6I20rC35CaGjuno9idj42sKperWHgrQm0/pubhtml?gid=1415003753&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 			</div>-->
 			
 			<div id="table-responsive-14" style="display:none;"><!--總成績-->
-			<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSZiswNYdtHKD29xIU427nTYlf159kpkB-jB5PVtK5DdvIJ0FjsXgNYduhsl0X6GR0UHDzI1MiyI3Ao/pubhtml?widget=true&amp;headers=false"></iframe>
+				<iframe width="100%" height="800" src="google表單website"></iframe>
 			</div>
 			
 			<div id="table-responsive-15" style="display:none;">
-			<iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR7N4biH15IbS58XyVYqWgUwSMdZleGd4kVGTEhtQO0UHUalgfjbo_U3dPKrxBao04g4KtX13C1w8Ql/pubhtml?widget=true&amp;headers=false"></iframe>
+			  <iframe width="100%" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR7N4biH15IbS58XyVYqWgUwSMdZleGd4kVGTEhtQO0UHUalgfjbo_U3dPKrxBao04g4KtX13C1w8Ql/pubhtml?widget=true&amp;headers=false"></iframe>
 			</div>
-           <table class="table table-striped" id="table-responsive-11" style="display:none;">
-              <thead>  
-                       <tr>  
-         	             <!-- <th class="title-font">週次</th> --> 
-	                     <th class="title-font">名稱</th>
-                	     <th class="title-font">解答</th>  
-       		             <th class="title-font">上傳日期</th> 
-                      </tr>
-              </thead>
+          
 
-              <tbody>
-    <tr>
-                      <td style="vertical-align:middle;">2010演算法期中考</td>
-                         <td style="vertical-align:middle;"><a href="https://goo.gl/BYZRhj" target="_blank">2010期中考</a></td>
-                         <td style="vertical-align:middle;">2017/9/15</td>
-                    </tr>
-    <tr>
-                      <td style="vertical-align:middle;">2010演算法期末考</td>
-                         <td style="vertical-align:middle;"><a href="https://goo.gl/z8ceRK" target="_blank">2010期末考</a></td>
-                         <td style="vertical-align:middle;">2017/9/15</td>
-                    </tr>
-		<tr>
-   	             <td style="vertical-align:middle;">2011演算法期中考</td>
-                     <td style="vertical-align:middle;"><a href="https://goo.gl/ogdQJ1" target="_blank">2011期中考</a></td>
-                     <td style="vertical-align:middle;">2017/9/15</td>
-                </tr>
-		<tr>
-                     <td style="vertical-align:middle;">2011演算法期末考</td>
-                     <td style="vertical-align:middle;"><a href="https://goo.gl/3e3At9" target="_blank">2011期末考</a></td>
-                     <td style="vertical-align:middle;">2017/9/15</td>
-                </tr>
-		<tr>
+      <table class="table table-striped" id="table-responsive-11" style="display:none;">
+          <thead>  
+              <tr>  
+         	       <!-- <th class="title-font">週次</th> --> 
+	               <th class="title-font">名稱</th>
+                 <th class="title-font">解答</th>  
+       		       <th class="title-font">上傳日期</th> 
+              </tr>
+          </thead>
+
+          <tbody>
+              <tr>
+                  <td style="vertical-align:middle;">2010演算法期中考</td>
+                  <td style="vertical-align:middle;"><a href="https://goo.gl/BYZRhj" target="_blank">2010期中考</a></td>
+                  <td style="vertical-align:middle;">2017/9/15</td>
+              </tr>
+
+              <tr>
+                    <td style="vertical-align:middle;">2010演算法期末考</td>
+                    <td style="vertical-align:middle;"><a href="https://goo.gl/z8ceRK" target="_blank">2010期末考</a></td>
+                    <td style="vertical-align:middle;">2017/9/15</td>
+              </tr>
+
+		          <tr>
+   	                <td style="vertical-align:middle;">2011演算法期中考</td>
+                    <td style="vertical-align:middle;"><a href="https://goo.gl/ogdQJ1" target="_blank">2011期中考</a></td>
+                    <td style="vertical-align:middle;">2017/9/15</td>
+              </tr>
+
+		          <tr>
+                    <td style="vertical-align:middle;">2011演算法期末考</td>
+                    <td style="vertical-align:middle;"><a href="https://goo.gl/3e3At9" target="_blank">2011期末考</a></td>
+                    <td style="vertical-align:middle;">2017/9/15</td>
+              </tr>
+
+	          	<tr>
                    <td style="vertical-align:middle;">2012演算法期中考</td>
                    <td style="vertical-align:middle;"><a href="https://goo.gl/B91V6g" target="_blank">2012期中考</a></td>
                    <td style="vertical-align:middle;">2017/9/15</td>
-                </tr>
-    <tr>
-                  <td style="vertical-align:middle;">2012演算法期末考</td>
-                  <td style="vertical-align:middle;"><a href="https://goo.gl/TcpRg6" target="_blank">2012期末考</a></td>
-                  <td style="vertical-align:middle;">2017/9/15</td>
-             </tr>
-		<tr>
+              </tr>
+
+              <tr>
+                   <td style="vertical-align:middle;">2012演算法期末考</td>
+                   <td style="vertical-align:middle;"><a href="https://goo.gl/TcpRg6" target="_blank">2012期末考</a></td>
+                   <td style="vertical-align:middle;">2017/9/15</td>
+              </tr>
+
+	          	<tr>
                    <td style="vertical-align:middle;">2013演算法期中考</td>
                    <td style="vertical-align:middle;"><a href="https://goo.gl/KgM5Ah" target="_blank">2013期中考</a></td>
                    <td style="vertical-align:middle;">2017/9/16</td>
-                </tr>
-		<tr>
+              </tr>
+
+		          <tr>
                    <td style="vertical-align:middle;">2013演算法期末考</td>
                    <td style="vertical-align:middle;"><a href="https://goo.gl/VBieXX" target="_blank">2013期末考</a></td>
                    <td style="vertical-align:middle;">2017/9/16</td>
-                </tr>
-    <tr>
+              </tr>
+
+               <tr>
                   <td style="vertical-align:middle;">2013演算法期末考</td>
                   <td style="vertical-align:middle;"><a href="https://goo.gl/VBieXX" target="_blank">2013期末考</a></td>
                   <td style="vertical-align:middle;">2017/9/16</td>
-               </tr>
-	    </tbody>
-           </table>
-          </div>
+              </tr>
+	        </tbody>
+        </table>
+       </div>
           
-        </div>
       </div>
+     </div>
     </div>
 
     <!-- Bootstrap core JavaScript
